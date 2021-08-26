@@ -10,7 +10,7 @@ env:
     bd-R/bdutilities
 
   WORKFLOW_FILES: |
-    ci/os/Mac-Dev-Dev.yml=.github/workflows/Mac-Dev-Dev.yml
+    ci/os/=.github/workflows/
 
 jobs:
   Github_Workflow_Sync:
