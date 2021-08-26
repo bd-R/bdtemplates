@@ -37,3 +37,14 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+
+# bdverse
+
+*.Rproj
+# R package: bookdown caching files
+/*_files/
+TRUE*.R
+.DS_Store
+*rsconnect*
+.idea
