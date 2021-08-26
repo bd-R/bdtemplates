@@ -10,7 +10,9 @@ env:
     bd-R/bdutilities
 
   WORKFLOW_FILES: |
-    ci/os/=.github/workflows/
+    ci/os/Ubu-Dev-Dec.yml=.github/workflows/Ubu-Dev-Dec.yml
+    ci/os/Win-Dev-Dec.yml=.github/workflows/Win-Dev-Dec.yml
+    ci/os/Mac-Dev-Dec.yml=.github/workflows/Mac-Dev-Dec.yml
 
 jobs:
   Github_Workflow_Sync:
