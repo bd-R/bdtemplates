@@ -10,7 +10,7 @@ env:
     bd-R/bdutilities
 
   WORKFLOW_FILES: |
-    ci/os=.github/workflows
+    ci/os
 
 jobs:
   Github_Workflow_Sync:
