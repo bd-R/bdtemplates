@@ -7,7 +7,13 @@ on:
 env:
   DRY_RUN: false
   REPOSITORIES: |
-    bd-R/bdutilities
+    bd-R/bdutilities.app
+    bd-R/bddwc
+    bd-R/bddwc.app
+    bd-R/bdchecks
+    bd-R/bdchecks.app
+    bd-R/bdclean
+    bd-R/bddashboard
 
   WORKFLOW_FILES: |
     ci/os/Ubu-Dev-Dev.yml=.github/workflows/Ubu-Dev-Dev.yml
