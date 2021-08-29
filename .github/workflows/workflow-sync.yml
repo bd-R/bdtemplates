@@ -7,6 +7,7 @@ on:
 env:
   DRY_RUN: false
   REPOSITORIES: |
+    bd-R/bdutilities
     bd-R/bdutilities.app
     bd-R/bddwc
     bd-R/bddwc.app
