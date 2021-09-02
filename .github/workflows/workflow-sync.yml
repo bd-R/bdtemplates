@@ -17,9 +17,6 @@ env:
     bd-R/bddashboard
 
   WORKFLOW_FILES: |
-    ci/os/Ubu-Dev-Dev.yml=.github/workflows/Ubu-Dev-Dev.yml
-    ci/os/Win-Dev-Dev.yml=.github/workflows/Win-Dev-Dev.yml
-    ci/os/Mac-Dev-Dev.yml=.github/workflows/Mac-Dev-Dev.yml
     ci/os/Ubu-Mas-Mas.yml=.github/workflows/Ubu-Mas-Mas.yml
     ci/os/Win-Mas-Mas.yml=.github/workflows/Win-Mas-Mas.yml
     ci/os/Mac-Mas-Mas.yml=.github/workflows/Mac-Mas-Mas.yml
