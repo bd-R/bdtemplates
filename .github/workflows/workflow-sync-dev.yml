@@ -1,0 +1,35 @@
+name: Workflow Sync Dev
+
+on:
+  push:
+    branches:
+      - main
+env:
+  DRY_RUN: false
+  REPOSITORIES: |
+    bd-R/bdutilities@dev
+    bd-R/bdutilities.app@dev
+    bd-R/bddwc@dev
+    bd-R/bddwc.app@dev
+    bd-R/bdchecks@dev
+    bd-R/bdchecks.app@dev
+    bd-R/bdclean@dev
+    bd-R/bddashboard@dev
+
+  WORKFLOW_FILES: |
+    github/.gitignore=.gitignore
+    github/.Rbuildignore=.Rbuildignore
+
+jobs:
+  Github_Workflow_Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching Local Repository
+        uses: actions/checkout@v2
+      - name: Running Workflow Sync
+        uses: varunsridharan/action-github-workflow-sync@main
+        with:
+          DRY_RUN: ${{ env.DRY_RUN }}
+          REPOSITORIES: ${{ env.REPOSITORIES }}
+          WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
+          GITHUB_TOKEN: ${{ secrets.SYNCWORKFLOW }}
