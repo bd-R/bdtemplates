@@ -23,6 +23,8 @@ env:
     ci/os/Ubu-Mas-Mas.yml=.github/workflows/Ubu-Mas-Mas.yml
     ci/os/Win-Mas-Mas.yml=.github/workflows/Win-Mas-Mas.yml
     ci/os/Mac-Mas-Mas.yml=.github/workflows/Mac-Mas-Mas.yml
+    github/.gitignore=.gitignore
+    github/.Rbuildignore=.Rbuildignore
 
 jobs:
   Github_Workflow_Sync:
