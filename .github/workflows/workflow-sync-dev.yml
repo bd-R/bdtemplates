@@ -17,6 +17,9 @@ env:
     bd-R/bddashboard@dev
 
   WORKFLOW_FILES: |
+    ci/os/Ubu-Dev-Dev.yml=.github/workflows/Ubu-Dev-Dev.yml
+    ci/os/Win-Dev-Dev.yml=.github/workflows/Win-Dev-Dev.yml
+    ci/os/Mac-Dev-Dev.yml=.github/workflows/Mac-Dev-Dev.yml
     github/.gitignore=.gitignore
     github/.Rbuildignore=.Rbuildignore
 
