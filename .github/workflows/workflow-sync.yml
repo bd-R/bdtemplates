@@ -23,6 +23,9 @@ env:
     ci/os/Ubu-Dev-Dev.yml=.github/workflows/Ubu-Dev-Dev.yml
     ci/os/Win-Dev-Dev.yml=.github/workflows/Win-Dev-Dev.yml
     ci/os/Mac-Dev-Dev.yml=.github/workflows/Mac-Dev-Dev.yml
+    ci/os/Ubu-Dev-Mas.yml=.github/workflows/Ubu-Dev-Mas.yml
+    ci/os/Win-Dev-Mas.yml=.github/workflows/Win-Dev-Mas.yml
+    ci/os/Mac-Dev-Mas.yml=.github/workflows/Mac-Dev-Mas.yml
     github/.gitignore=.gitignore
     github/.Rbuildignore=.Rbuildignore
 
